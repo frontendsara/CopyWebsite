@@ -1,0 +1,1028 @@
+
+/* ---- STYLING FÖR MOBIL ---- */
+
+/* BODY */
+
+body {
+    background-color: white;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
+
+/* NYHETSBREV-LÄNK - OVANFÖR HEADER */
+
+.newsletter-top {
+    background-color:white;
+    border-bottom-color: rgb(243, 243, 243);
+    border-bottom-style: solid;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 4.5%;
+}
+
+.newsletter-link-top {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 75%;
+    font-weight: 400;
+    text-align: center;
+    color:rgb(41, 41, 41); 
+    text-decoration-color: rgb(41, 41, 41);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.newsletter-link:hover {
+    color: rgb(201, 201, 201);
+    text-decoration-color: rgb(201, 201, 201);
+}
+
+/* HEADER */
+
+header {
+    background-color:white;
+    height: 10%;
+    margin-top: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+/* IKONER OCH LOGOTYP I HEADER */
+
+.search-icon {
+    margin-left: 6%;
+}
+
+.heart-icon  {
+    margin-right: 6%;
+}
+
+.logo {
+    width: 60%;
+}
+
+/* SIGN IN / FLAGGA / SWEDEN */ 
+
+.sign-in  {
+    left: 82%;
+    top: 17.5%; 
+    font-size: 62.5%;
+}
+
+.swedish-flag-icon {
+    width: 2%;
+    left: 87%;
+    top: 19.5%;
+}
+
+.sweden {
+    left: 89.5%;
+    top: 17.5%;
+    font-size: 62.5%;
+
+}
+
+
+
+/* ASIDE - SYNS EJ I MOBIL/TABLETVERSION*/
+
+aside {
+    background-color: white;
+    width: 20%;
+    height: 29rem;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    display: none;
+}
+
+/* MENY MED KATEGORIER I VERTIKAL LISTA - SYNS EJ I MOBIL/TABLETVERSION */
+
+.scrollbar {
+    background-color: white;
+    padding-right: 14%;
+    overflow: auto;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+
+.categories {
+    list-style: none;
+}
+
+.categories a {
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 112.5%;
+    font-weight: 700;
+    line-height: 186%;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    letter-spacing: normal;
+    text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+
+.categories a:hover {
+    color: black;
+    text-decoration-color: black;
+    text-decoration: underline;
+}
+
+
+/* HUVUDINNEHÅLL */
+
+/* MAIN */
+
+main {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+
+}
+
+
+/* STYLING FÖR RUBRIKER H2-H5 */
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 160%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.image-text-box-four h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 130%;
+    text-align: center;
+    line-height: 0.5%;
+}
+
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 100%;
+    text-align: center;
+}
+
+.image-text-box-four h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 68%;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 114%;
+    text-align: center;
+}
+
+/* STYLING FÖR RUBRIKER OVANFÖR DEL 3 OCH 4 */
+
+.headline-caption {
+    margin-top: 12%;
+    margin-bottom: 3%;
+}
+
+
+/* P-TAGGAR */
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 62.5%;
+    font-weight: 100;
+}
+
+.image-text-box-four p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 68.75%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.brand-text-bottom p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 62.5%;
+    text-align: center;
+    line-height: 150%;
+    padding-top: 4%;
+}
+
+
+/* SPECIALSTYLING - LILLA TEXTEN I VITA RUTOR - BILD 2 OCH 3 - DEL 4 */
+
+#little-font {
+    margin-top: 0;
+    font-size: 30%;
+    margin-bottom: 8%;
+}
+
+
+
+/* STYLING FÖR BILDER */
+
+img {
+    width: 100%;
+}
+
+
+/* STYLING FÖR DEL 1-4 */
+
+/* DEL 1 */
+
+.part-one {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.section-one {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DEL 2 */
+
+.part-two {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5%;
+}
+
+/* DEL 3 */
+
+.part-three {
+    background-color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2%;
+    row-gap: 0.5%;
+}
+
+.section-three {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DEL 4 */
+
+.part-four {
+    background-color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    column-gap: 2%;
+    row-gap: 0.5%;
+}
+
+.section-four-top {
+    grid-column: 1/3;
+    position: relative;
+    align-items: center;
+}
+
+.section-four {
+    position: relative;
+    align-items: center;
+}
+
+
+/* VITA RUTOR MED TEXT PÅ BILDER DEL 1-4 */
+
+/* DEL 1 */
+
+.image-text-box-section-one {
+    background-color: white;
+    top: 72%;
+    left: 4%;
+    right: 4%;
+    height: 24%;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0.5%;
+}
+
+/* DEL 2 */
+
+.image-text-box-section-two {
+    background-color: white;
+    top: 72%;
+    left: 4%;
+    right: 4%;
+    height: 24%;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0.5%;
+}
+
+/* DEL 3 */
+
+.image-text-box-section-three {
+    background-color: white;
+    top: 78%;
+    left: 7%;
+    right: 7%;
+    height: 13%;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+/* DEL 4 */
+
+.image-text-box-four {
+    background-color: white;
+    top: 78%;
+    left: 5%;
+    right: 5%;
+    height: 16%;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0.5%;
+} 
+
+
+/* FOOTER */
+
+footer {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LINJE I TOPPEN AV FOOTER */
+
+hr {
+    text-align: center;
+    width: 100%;
+    color:rgb(41, 41, 41)
+}
+
+/* SOCIALA MEDIER-IKONER I RAD */
+
+.social-media-icons-row  {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+/* SPAN-TAGG FÖR ATT ÖKA UTRYMME MELLAN IKONER */
+
+span {
+    margin: 0.6rem;
+}
+
+
+/* NYHETSBREV - RUBRIK */
+
+.newsletter-footer {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.newsletter-footer h3 {
+    font-size: 130%;
+}
+
+/* NYHETSBREV - LÄNK */
+
+.newsletter-link-footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 75%;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 0;
+}
+
+/* STYLING FÖR SEKTION - ABOUT / CUSTOMER SERVICE / CONTACT */
+
+.info-section-footer {
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+/* LISTOR INUTI SEKTION - ABOUT / CUSTOMER SERVICE / CONTACT */
+
+.info-list-footer {
+    text-align: center;
+}
+
+/* TYPSNITT FÖR SEKTION MED LISTOR */
+
+.info-section-footer nav {
+    text-align: center;
+    list-style-type: none;
+}
+
+.info-section-footer ul {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    list-style-type: none;
+    line-height: 0;
+}
+
+.info-section-footer li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75%;
+    list-style-type: none;
+    line-height: 200%;
+}
+
+/* FÖRETAGSINFO - LÄNGST NER I FOOTERN */
+
+.brand-text-bottom {
+    background-color:white;
+    width: 98%;
+    padding-bottom: 14%;
+}
+
+/* ---- SLUT PÅ STYLING FÖR MOBIL! ---- */
+
+
+
+/* ---- STYLING FÖR TABLET ---- */
+
+@media screen and (min-width: 700px){
+
+    /* BODY */
+
+    body {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    /* HEADER */
+
+    header {
+        margin-top: 0;
+    }
+
+    /* LOGO I HEADER */
+
+    .logo {
+        width: 40%;
+    }
+
+    .search-icon {
+        margin-left: 2%;
+    }
+
+    .heart-icon {
+        margin-right: 2%;
+    }
+
+
+    /* SPECIAL-STYLING FÖR BILDER I DEL 3-4 */ 
+
+    .edited-image-section-three {
+        width: 105%;
+    }
+
+    .edited-image-section-four {
+        width: 103.5%;
+
+    }
+
+    /* STYLING FÖR DEL 1-4 */
+
+    /* DEL 1 */
+
+    .part-one {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .section-one {
+        flex: 1;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* DEL 2 */
+
+    .part-two {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 101%;
+    }
+
+    .section-two {
+        flex: 3;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5%;
+    }
+    
+    /* DEL 3 */
+
+    .part-three {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+    }
+
+    .section-three {
+        flex: 4;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    /* DEL 4 */
+
+    .part-four {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+    }
+    
+    .section-four-top {
+        flex: 3;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section-four {
+        flex: 3;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* VITA RUTOR I BILDER DEL 1-4 */
+
+    /* VIT RUTA DEL 1 */
+
+    .image-text-box-section-one {
+        background-color: white;
+        width: 29%;
+        margin-left: 31%;
+        height: 7.5%;
+        margin-top: 22%;
+        line-height: 0.5%;
+    }
+
+    /* VIT RUTA DEL 2 */
+
+    .image-text-box-section-two {
+        background-color: white;
+        width: 80%;
+        height: 20%;
+        margin-left: 7%;
+        top: 67%;
+    }
+
+    /* DEL 3 */
+
+    .image-text-box-section-three {
+        background-color: white;
+        width: 70%;
+        height: 10%;
+        margin-left: 11%;
+        top: 70%;
+    }
+
+    /* DEL 4 */
+
+    .image-text-box-four {
+        background-color: white;
+        width: 80%;
+        height: 13.5%;
+        margin-left: 7%;
+        top: 73%;
+        line-height: 0.5%;
+    } 
+
+    /* TEXT I VITA RUTOR */
+
+    h3 {
+        font-size: 100%;
+    }
+    
+    h4 {
+        font-size: 85%;
+    }
+
+    .section-two h3 {
+        font-size: 100%;
+    }
+
+    .section-four-top h3 {
+        font-size: 80%;
+    }
+
+    .section-four h4 {
+        font-size: 80%;
+    }
+
+    .section-one p {
+        font-size: 46%;
+        margin-top: 3%
+    }
+
+    .section-two p {
+        font-size: 44%;
+        margin-top: 3%;
+    }
+
+    .section-four-top p {
+        font-size: 44%;
+    }
+
+    #little-font {
+        font-size: 44%;
+    }
+
+    .headline-caption h2 {
+        font-size: 200%;
+    }
+
+    .headline-caption {
+        margin-bottom: 1%;
+        margin-top: 7%;
+    }
+
+
+
+    /* FOOTER */
+
+    hr {
+        margin-top: 6%;
+    }
+
+    .info-section-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .info-list-footer {
+        flex: 3;
+    }
+
+    .brand-text-bottom {
+        width: 76%;
+        padding-top: 2%;
+        padding-bottom: 7%;
+    }
+}
+
+/* ---- SLUT PÅ STYLING FÖR TABLET! ---- */
+
+
+/* ---- OBS! OBS! OBS! ---- */
+/* --- SPECIALSTYLING FÖR SIGN IN / FLAGGA / SWEDEN ---- */
+/* --- HÄR HAR VI ANVÄNT MAX-WIDTH PGA DESSA SYNS EJ I DESKTOP-VERSION MED MIN-WIDTH ---- */
+/* --- VI VET ATT VI INTE SKA BLANDA! :) KAN INTE FÅ DESSA RÄTT MED ANVÄNDANDE AV MIN-WIDTH DOCK ---- */
+
+@media screen and (max-width: 1024px) {
+
+    .sign-in {
+        display: none;
+    }
+    
+    .swedish-flag-icon {
+        display: none;
+    }
+
+    .sweden {
+        display: none;
+    }
+    
+}
+
+/* ---- STYLING FÖR DESKTOP ---- */
+
+@media screen and (min-width: 1025px) {
+
+    body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .newsletter-top {
+        padding-bottom: 1%;
+        padding-top: 0.3%;
+    }
+        
+    header {
+        position: relative;
+        margin-bottom: 0;
+        margin-top: 0.25%;
+        }
+
+    .burger-menu-icon {
+        display: none;
+    }
+
+    .search-icon {
+        top: 11%;
+        right: 96%;
+        position: fixed;
+    }
+
+    .heart-icon {
+        top: 17.8%;
+        left: 93%;
+        position: absolute;
+    }
+
+    .bag-icon {
+        top: 11%;
+        right: 2%;
+        position: fixed;
+    }
+
+    .logo {
+        margin-top: 2%;
+    }
+
+    .sign-in {
+        position: absolute;
+    }
+
+    .swedish-flag-icon {
+        position: absolute;
+    }
+
+    .sweden {
+        position: absolute;
+    }
+
+
+    main {
+        width: 78%;
+        float: right;
+
+    }
+
+    aside {
+        display: flex;
+        width: 19.5%;
+        height: 70%;
+      
+    }
+
+    /* DEL 1 */ 
+
+    .part-one {
+         width: 97%;
+         margin-right: 8.5%;
+    }
+
+    /* DEL 2 */
+
+    .part-two {
+        width: 97.5%;
+        margin-right: 8.5%;
+    }
+
+    .section-two {
+        margin: 0.4%;
+    }
+
+    /* DEL 3 */
+
+    .part-three {
+        width: 95.5%;
+        margin-right: 9.5%;
+    }
+
+    /* DEL 4 */
+
+    .part-four {
+        width: 95.5%;
+        margin-right: 9.5%;
+    }
+
+
+    /* VITA RUTOR I BILDER DEL 1-4*/
+
+    /* VIT RUTA DEL 1 */
+
+    .image-text-box-section-one {
+        background-color: white;
+        width: 30%;
+        margin-left: 31%;
+        height: 18%;
+        margin-top: 3%;
+        line-height: 0.5%;
+    }
+
+    /* VIT RUTA DEL 2 */
+
+    .image-text-box-section-two {
+        background-color: white;
+        top: 71%;
+        left: 3%;
+        right: 3%;
+        height: 20%;
+    }
+
+    /* DEL 3 */
+
+    .image-text-box-section-three {
+        background-color: white;
+        top: 77%;
+        left: 7%;
+        right: 9%;
+        height: 11%;
+        }
+
+    /* DEL 4 */
+
+    .image-text-box-four {
+        background-color: white;
+        top: 76%;
+        left: 5%;
+        right: 5%;
+        height: 14%;
+        line-height: 0.5%;
+    } 
+
+    /* TEXT I VITA RUTOR */
+
+    h3 {
+        font-size: 134%;
+    }
+
+    h4 {
+        font-size: 120%;
+    }
+
+    .section-two h3 {
+        font-size: 132%;
+    }
+
+    .section-four-top h3 {
+        font-size: 110%;
+    }
+
+    .section-four h4 {
+        font-size: 110%;
+    }
+
+    .section-one p {
+        font-size: 56.25%;
+        margin: 2%
+    }
+
+    .section-two p {
+        font-size: 56.25%;
+        margin: 2%
+    }
+
+    .section-four-top p {
+        font-size: 56.75%;
+    }
+
+    #little-font {
+        font-size: 56.75%;
+    }
+
+
+    /* RUBRIKER OVANFÖR DEL 3 OCH 4 */
+
+    .headline-caption {
+        margin-top: 7%;
+        margin-right: 6%;
+        margin-bottom: 1.5%;
+    }
+
+    .headline-caption h2 {
+        font-size: xx-large;
+    }
+
+    /* FOOTER MED INNEHÅLL */
+
+    footer {
+        height: 23%;
+    }
+
+    hr {
+        margin-top: 4.5%;
+        width: 90%;
+    }
+
+    .newsletter-footer h2 {
+        font-size: 205%;
+        margin-bottom: 1%; 
+    }
+
+    h5 {
+        margin-top: 4%;
+    }
+
+    .social-media-icons-row {
+        margin-top: 3%;
+        margin-bottom: 1%;
+    }
+
+    .info-section-footer {
+        width: 66%;
+    }
+
+    .brand-text-bottom {
+        width: 40%;
+        padding-top: 1.5%;
+        padding-bottom: 4%;
+    }
+
+}
+
+/* ---- SLUT PÅ STYLING FÖR DESKTOP ---- */
+
+
+
+
+
+
+
