@@ -4,7 +4,7 @@ https://www.stories.com/en_sek/index.html
 
 Grupp: Sara Karlsson och Lisa Marie Andersson
 
-DEMO [här] (http://frontendsara.github.io/renew-webpage/).
+DEMO [här] (https://github.com/frontendsara/CopyWebsite.git).
 
 
 - Info om hur vi tänkt -
