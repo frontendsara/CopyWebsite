@@ -1,10 +1,10 @@
-Hej Lisa!
-
 Vi har valt att återskapa huvudsidan av websidan & Other Stories med hjälp av HTML och CSS.
 
 https://www.stories.com/en_sek/index.html 
 
 Grupp: Sara Karlsson och Lisa Marie Andersson
+
+DEMO [här] (http://frontendsara.github.io/renew-webpage/).
 
 
 - Info om hur vi tänkt -
